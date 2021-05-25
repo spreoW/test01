@@ -16,7 +16,7 @@ class MyThread02 extends Thread{
             synchronized (obj){
                 System.out.println(ClassLayout.parseInstance(obj).toPrintable());
                 System.out.println("bbb");
-                System.out.println("ccc");
+                System.out.println("ddd");
             }
         }
     }
